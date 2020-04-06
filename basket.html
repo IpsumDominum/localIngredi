@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Local-Ingrediants&mdash;Recipes for dunedin</title>
+    <title>Local-Online-Market&mdash;Local Ingredients</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,13 +30,14 @@
         <li onclick="document.location='index.html'" data-text="Home">Home</li>
         <li onclick="document.location='login.html'" data-text="Login">Login</li>
         <li onclick="document.location='basket.html'" data-text="||||Checkout">||||||| My Basket</li>
-        <li onclick="document.location='about.html'" data-text="|||||||||||||||||| |||||||| About Local Ingredients">|||||||||||||||||| |||||||| About Local Ingredients</li>
+        <li onclick="document.location='basket.html'" data-text="Contact">Contact</li>
+        <li onclick="document.location='about.html'" data-text="|||||||||||||||||| |||||||| About Local Ingredients">|||||||||||||||||| |||||||| About Local Ingredients</li>        
     </ul>
 </nav>
 
 <main>        
-    <h1 style="margin:auto;text-align:center;"><strong style="color:green">.</strong>Local Ingredients</h1>  
-    <p style="margin:auto;text-align:center;">Find local ingrediants directly grown by local farmers:)</p>  
+    <h1 style="margin:auto;text-align:center;"><strong style="color:green">.</strong>Local Online Market</h1>  
+    <p style="margin:auto;text-align:center;">Find local ingrediants directly grown by local farmers amdist COVID-19:)</p>  
 <form style="text-align:center;margin:auto">
     <select name="type" style="width:10%">
         <option value="vegan">Dunedin</option>
@@ -171,10 +172,14 @@ function showinfo(ele){
     }      
 </script>
 
+
 <footer style="position:fixed;bottom:0%;width:100%;background-color:#fcfcf4">
-  <hr>
-<p style="background-color:#fcfcf4"> Copy Right 2020&copy; D&T web development </p>
-</footer> 
+    <hr>
+  <p style="background-color:#fcfcf4">2020&copy; D&T web development 
+        <label onclick="document.location='farmer.html'"style="float:right"><button class="btn btn-warning">Farmers Login</button></label>
+  
+  </p>
+  </footer> 
 <script src="js/main.js"></script>
   
 </body>
