@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Local-Ingrediants&mdash;Recipes for dunedin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/card.css">
+    
+  </head>
+  
+<style>
+    .itembox2{
+        height:150px;
+    }
+</style>  
+  <button class="burgerbutton menu-toggle">
+  </button>
+  <div class="userinfobox">
+  <img onclick="document.location='basket.html'" class="usericon" src="basket.svg" width="" >  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  (2)
+  </div>
+<nav>
+    <ul class="menu">
+        <li onclick="document.location='index.html'" data-text="Home">Home</li>
+        <li onclick="document.location='login.html'" data-text="Login">Login</li>
+        <li onclick="document.location='basket.html'" data-text="||||Checkout">||||||| My Basket</li>
+        <li onclick="document.location='about.html'" data-text="|||||||||||||||||| |||||||| About Local Ingredients">|||||||||||||||||| |||||||| About Local Ingredients</li>
+    </ul>
+</nav>
+
+<main>        
+    <h1 style="margin:auto;text-align:center;"><strong style="color:green">.</strong>Local Ingredients</h1>  
+    <p style="margin:auto;text-align:center;">Find local ingrediants directly grown by local farmers:)</p>  
+<form style="text-align:center;margin:auto">
+    <select name="type" style="width:10%">
+        <option value="vegan">Dunedin</option>
+        <option value="vege">Christchurch</option>
+        <option value="fish">Auckland</option>
+        <option value="na">Blenheim</option>
+      </select> 
+<input name="search" placeholder="search for ingredients here...(example: zuchini, potatoe)" style="width:50%;background-color:transparent;border-block:none;border-left:none;border-bottom:#989898 solid 5px">    
+<button type="submit" class="custom-btn btn-6"><span>Search</span></button><br>      
+</form>
+</main>
+<hr>
+<div class="container">
+
+     
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-md-offset-1">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-center">Total</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-sm-8 col-md-6">
+                            <div class="media">
+                                <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Tomatoes</a></h4>
+                                    <h5 class="media-heading"> by <a href="#">Farmer Sue</a></h5>
+                                    <span>Status: </span><span class="text-success"><strong>In Stock</strong></span>
+                                </div>
+                            </div></td>
+                            <td class="col-sm-1 col-md-1" style="text-align: center">
+                            <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                            </td>
+                            <td class="col-sm-1 col-md-1 text-center"><strong>$4.87</strong></td>
+                            <td class="col-sm-1 col-md-1 text-center"><strong>$14.61</strong></td>
+                            <td class="col-sm-1 col-md-1">
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-remove"></span> Remove
+                            </button></td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">
+                            <div class="media">
+                                <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="#">Fresh Potatoes</a></h4>
+                                    <h5 class="media-heading"> by <a href="#">Farmer John</a></h5>
+                                    <span>Status: </span><span class="text-warning"><strong>Harvesting in 2 days</strong></span>
+                                </div>
+                            </div></td>
+                            <td class="col-md-1" style="text-align: center">
+                            <input type="email" class="form-control" id="exampleInputEmail1" value="2">
+                            </td>
+                            <td class="col-md-1 text-center"><strong>$4.99</strong></td>
+                            <td class="col-md-1 text-center"><strong>$9.98</strong></td>
+                            <td class="col-md-1">
+                            <button type="button" class="btn btn-danger">
+                                <span class="glyphicon glyphicon-remove"></span> Remove
+                            </button></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td><h5>Subtotal</h5></td>
+                            <td class="text-right"><h5><strong>$24.59</strong></h5></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td><h5>Estimated shipping</h5></td>
+                            <td class="text-right"><h5><strong>$6.94</strong></h5></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td><h3>Total</h3></td>
+                            <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+                        </tr>
+                        <tr>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>   </td>
+                            <td>
+                            <button type="button" class="btn btn-default">
+                                <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+                            </button></td>
+                            <td>
+                            <button type="button" class="btn btn-success">
+                                Checkout <span class="glyphicon glyphicon-play"></span>
+                            </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+      
+</div>
+<script>
+    function lowerinfo(ele){
+        var parent_children = ele.childNodes;
+    for(i=1;i<parent_children.length;i++){
+      if(parent_children[i].id=="makebutton"){
+              parent_children[i].style.opacity = 0;
+          }else if(parent_children[i].style!=undefined){
+              parent_children[i].style.opacity=1;
+        }
+      }
+    }      
+function showinfo(ele){
+    var parent_children = ele.childNodes;
+    for(i=1;i<parent_children.length;i++){
+          if(parent_children[i].id=="makebutton"){
+              parent_children[i].style.opacity = 1;
+          }else if(parent_children[i].style!=undefined){
+              parent_children[i].style.opacity=0.2;
+        }
+      }
+    }      
+</script>
+
+<footer style="position:fixed;bottom:0%;width:100%;background-color:#fcfcf4">
+  <hr>
+<p style="background-color:#fcfcf4"> Copy Right 2020&copy; D&T web development </p>
+</footer> 
+<script src="js/main.js"></script>
+  
+</body>
+</html>
